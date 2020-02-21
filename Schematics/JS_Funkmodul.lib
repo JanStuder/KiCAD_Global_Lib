@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# E62_433T20D
+#
+DEF E62_433T20D U 0 40 Y Y 1 F N
+F0 "U" -350 400 50 H V C CNN
+F1 "E62_433T20D" 450 -350 50 H V C CNN
+F2 "JS_Funkmodul:E62_433T20D" 0 -700 50 H I C CNN
+F3 "" -150 -100 50 H I C CNN
+F4 "https://de.aliexpress.com/item/32973981344.html?spm=a2g0o.productlist.0.0.31036e63ObsdrL&algo_pvid=e5b6f477-32d2-4400-956b-5e873e987f25&algo_expid=e5b6f477-32d2-4400-956b-5e873e987f25-0&btsid=0ab50f0815823180280361521e0d43&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" 700 -850 50 H I C CNN "Bestell Nr."
+F5 "Ali Express" -900 -700 50 H I C CNN "Lieferant"
+DRAW
+S -350 300 350 -300 0 1 0 f
+X M0 1 -450 200 100 R 39 39 1 1 I
+X LOCK 2 -450 100 100 R 39 39 1 1 I
+X RXD 3 -450 -100 100 R 39 39 1 1 I
+X TXD 4 -450 -200 100 R 39 39 1 1 O
+X AUX 5 450 0 100 L 39 39 1 1 O
+X VCC 6 50 400 100 D 39 39 1 1 I
+X GND 7 50 -400 100 U 39 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
