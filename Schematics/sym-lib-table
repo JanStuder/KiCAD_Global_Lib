@@ -15,5 +15,6 @@
   (lib (name MK_STM32)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/Schematics/MK_STM32.lib)(options "")(descr ""))
   (lib (name MK_Supply)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/Schematics/MK_Supply.lib)(options "")(descr ""))
   (lib (name MK_Transistor)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/Schematics/MK_Transistor.lib)(options "")(descr ""))
+  (lib (name New_Library_Loeschvormerkung_gesetzt)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/Schematics/New_Library_Loeschvormerkung_gesetzt.lib)(options "")(descr ""))
   (lib (name SamacSys_Parts)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/Schematics/SamacSys_Parts.lib)(options "")(descr ""))
 )
