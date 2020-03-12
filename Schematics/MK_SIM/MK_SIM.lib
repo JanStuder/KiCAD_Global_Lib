@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Stromquelle
+#
+DEF Stromquelle U 0 40 Y Y 1 F N
+F0 "U" 0 650 50 H V C CNN
+F1 "Stromquelle" 0 650 50 H V C CNN
+F2 "" 0 650 50 H I C CNN
+F3 "" 0 650 50 H I C CNN
+DRAW
+C 0 0 100 0 0 8 N
+P 2 0 0 0 -100 0 100 0 N
+X ~ ~ 0 -200 100 U 50 50 1 1 I
+X ~ ~ 0 200 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TIA_Ersatz
+#
+DEF TIA_Ersatz U 0 40 Y Y 1 F N
+F0 "U" 150 1100 50 H V C CNN
+F1 "TIA_Ersatz" 150 1100 50 H V C CNN
+F2 "" 150 1100 50 H I C CNN
+F3 "" 150 1100 50 H I C CNN
+DRAW
+P 4 0 0 0 -350 700 -350 -700 700 0 -350 700 f
+X ~ ~ -450 -300 100 R 50 50 1 1 I
+X ~ ~ -450 350 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
